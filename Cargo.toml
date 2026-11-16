@@ -1,0 +1,10 @@
+[package]
+name = "SigmaOS-hrtimer"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "SigmaOS hrtimer component - kernel_subsystem"
+
+[lib]
+name = "hrtimer"
+path = "src/lib.rs"
